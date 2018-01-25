@@ -32,6 +32,9 @@
 		5936EFF22019DD8B008A34E0 /* SegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFEC2019DD8B008A34E0 /* SegmentCell.m */; };
 		5936EFF32019DD8B008A34E0 /* SegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFEE2019DD8B008A34E0 /* SegmentControl.m */; };
 		5936EFF42019DD8B008A34E0 /* UIColor+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFF02019DD8B008A34E0 /* UIColor+UIColor.m */; };
+		5936EFFC2019DE2A008A34E0 /* RefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFF72019DE29008A34E0 /* RefreshFooterView.m */; };
+		5936EFFD2019DE2A008A34E0 /* RefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFF92019DE29008A34E0 /* RefreshHeaderView.m */; };
+		5936EFFE2019DE2A008A34E0 /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFFB2019DE29008A34E0 /* UIScrollView+Refresh.m */; };
 		BE860BAA038F37390FE6A70D /* libPods-BasicProduct.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF3EE86A5E6050B8B90322B /* libPods-BasicProduct.a */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +91,12 @@
 		5936EFEE2019DD8B008A34E0 /* SegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentControl.m; sourceTree = "<group>"; };
 		5936EFEF2019DD8B008A34E0 /* UIColor+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColor.h"; sourceTree = "<group>"; };
 		5936EFF02019DD8B008A34E0 /* UIColor+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColor.m"; sourceTree = "<group>"; };
+		5936EFF62019DE29008A34E0 /* RefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshFooterView.h; sourceTree = "<group>"; };
+		5936EFF72019DE29008A34E0 /* RefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshFooterView.m; sourceTree = "<group>"; };
+		5936EFF82019DE29008A34E0 /* RefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshHeaderView.h; sourceTree = "<group>"; };
+		5936EFF92019DE29008A34E0 /* RefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshHeaderView.m; sourceTree = "<group>"; };
+		5936EFFA2019DE29008A34E0 /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refresh.h"; sourceTree = "<group>"; };
+		5936EFFB2019DE29008A34E0 /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refresh.m"; sourceTree = "<group>"; };
 		5DF3EE86A5E6050B8B90322B /* libPods-BasicProduct.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicProduct.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC5503C9D80E8E25F1B2118 /* Pods-BasicProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicProduct.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasicProduct/Pods-BasicProduct.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -195,6 +204,7 @@
 		5936EFBB2019C774008A34E0 /* ThirdPart */ = {
 			isa = PBXGroup;
 			children = (
+				5936EFF52019DE29008A34E0 /* Refresh */,
 				5936EFE82019DD8B008A34E0 /* SDDSegmentCenter */,
 			);
 			path = ThirdPart;
@@ -234,6 +244,19 @@
 				5936EFF02019DD8B008A34E0 /* UIColor+UIColor.m */,
 			);
 			path = SDDSegmentCenter;
+			sourceTree = "<group>";
+		};
+		5936EFF52019DE29008A34E0 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				5936EFF62019DE29008A34E0 /* RefreshFooterView.h */,
+				5936EFF72019DE29008A34E0 /* RefreshFooterView.m */,
+				5936EFF82019DE29008A34E0 /* RefreshHeaderView.h */,
+				5936EFF92019DE29008A34E0 /* RefreshHeaderView.m */,
+				5936EFFA2019DE29008A34E0 /* UIScrollView+Refresh.h */,
+				5936EFFB2019DE29008A34E0 /* UIScrollView+Refresh.m */,
+			);
+			path = Refresh;
 			sourceTree = "<group>";
 		};
 		B3427B17697D47BF3944C8EA /* Frameworks */ = {
@@ -371,12 +394,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5936EFCB2019CDB7008A34E0 /* GFBasicTabViewController.m in Sources */,
+				5936EFFD2019DE2A008A34E0 /* RefreshHeaderView.m in Sources */,
 				5936EFD52019D61A008A34E0 /* StringUtils.m in Sources */,
 				5936EFC02019C99A008A34E0 /* UIView+UIView.m in Sources */,
 				5936EFE12019DC21008A34E0 /* UIColor+Wrapper.m in Sources */,
 				5936EFF42019DD8B008A34E0 /* UIColor+UIColor.m in Sources */,
 				5936EFC82019CD03008A34E0 /* GFNavigationViewController.m in Sources */,
 				5936EFCE2019CDFA008A34E0 /* GFTabBar.m in Sources */,
+				5936EFFC2019DE2A008A34E0 /* RefreshFooterView.m in Sources */,
 				5936EFD82019D637008A34E0 /* NSString+Wrapper.m in Sources */,
 				5936EFE42019DC6E008A34E0 /* FileUtils.m in Sources */,
 				5936EFC52019CC96008A34E0 /* GFBasicTableViewController.m in Sources */,
@@ -387,6 +412,7 @@
 				5936EFD22019D5B6008A34E0 /* CustomAlertView.m in Sources */,
 				5936EFF22019DD8B008A34E0 /* SegmentCell.m in Sources */,
 				5936EF9D2019BCC7008A34E0 /* AppDelegate.m in Sources */,
+				5936EFFE2019DE2A008A34E0 /* UIScrollView+Refresh.m in Sources */,
 				5936EFDE2019D950008A34E0 /* DeviceInfoUtils.m in Sources */,
 				5936EFE72019DCB4008A34E0 /* ValidationUtils.m in Sources */,
 				5936EFF12019DD8B008A34E0 /* SDDController.m in Sources */,

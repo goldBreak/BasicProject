@@ -13,7 +13,14 @@
     if ([str isKindOfClass:[NSNull class]]) {
         return YES;
     }
-    if (str == nil || str == NULL || [str isEqualToString:@""]) {
+    if (str == nil || str == NULL) {
+        return YES;
+    }
+    if (![str isKindOfClass:[NSString class]]) {
+        return NO;
+    }
+    
+    if ([str isEqualToString:@""]) {
         return YES;
     }
     if ([[str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] length] == 0) {
