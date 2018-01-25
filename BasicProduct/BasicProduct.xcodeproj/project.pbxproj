@@ -15,6 +15,23 @@
 		5936EFAB2019BCC7008A34E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFAA2019BCC7008A34E0 /* main.m */; };
 		5936EFB42019C30E008A34E0 /* GFBaiscViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFB32019C30E008A34E0 /* GFBaiscViewController.m */; };
 		5936EFB92019C514008A34E0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5936EFB82019C514008A34E0 /* Default-568h@2x.png */; };
+		5936EFC02019C99A008A34E0 /* UIView+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFBF2019C99A008A34E0 /* UIView+UIView.m */; };
+		5936EFC52019CC96008A34E0 /* GFBasicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFC42019CC96008A34E0 /* GFBasicTableViewController.m */; };
+		5936EFC82019CD03008A34E0 /* GFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFC72019CD03008A34E0 /* GFNavigationViewController.m */; };
+		5936EFCB2019CDB7008A34E0 /* GFBasicTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFCA2019CDB7008A34E0 /* GFBasicTabViewController.m */; };
+		5936EFCE2019CDFA008A34E0 /* GFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFCD2019CDFA008A34E0 /* GFTabBar.m */; };
+		5936EFD22019D5B6008A34E0 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFD12019D5B6008A34E0 /* CustomAlertView.m */; };
+		5936EFD52019D61A008A34E0 /* StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFD42019D61A008A34E0 /* StringUtils.m */; };
+		5936EFD82019D637008A34E0 /* NSString+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFD72019D636008A34E0 /* NSString+Wrapper.m */; };
+		5936EFDB2019D7F7008A34E0 /* UIViewController+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFDA2019D7F7008A34E0 /* UIViewController+ViewController.m */; };
+		5936EFDE2019D950008A34E0 /* DeviceInfoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFDD2019D950008A34E0 /* DeviceInfoUtils.m */; };
+		5936EFE12019DC21008A34E0 /* UIColor+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFE02019DC21008A34E0 /* UIColor+Wrapper.m */; };
+		5936EFE42019DC6E008A34E0 /* FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFE32019DC6E008A34E0 /* FileUtils.m */; };
+		5936EFE72019DCB4008A34E0 /* ValidationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFE62019DCB4008A34E0 /* ValidationUtils.m */; };
+		5936EFF12019DD8B008A34E0 /* SDDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFEA2019DD8B008A34E0 /* SDDController.m */; };
+		5936EFF22019DD8B008A34E0 /* SegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFEC2019DD8B008A34E0 /* SegmentCell.m */; };
+		5936EFF32019DD8B008A34E0 /* SegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFEE2019DD8B008A34E0 /* SegmentControl.m */; };
+		5936EFF42019DD8B008A34E0 /* UIColor+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936EFF02019DD8B008A34E0 /* UIColor+UIColor.m */; };
 		BE860BAA038F37390FE6A70D /* libPods-BasicProduct.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF3EE86A5E6050B8B90322B /* libPods-BasicProduct.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +50,44 @@
 		5936EFB22019C30E008A34E0 /* GFBaiscViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFBaiscViewController.h; sourceTree = "<group>"; };
 		5936EFB32019C30E008A34E0 /* GFBaiscViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFBaiscViewController.m; sourceTree = "<group>"; };
 		5936EFB82019C514008A34E0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5936EFBC2019C781008A34E0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5936EFBD2019C8BA008A34E0 /* UICommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICommon.h; sourceTree = "<group>"; };
+		5936EFBE2019C99A008A34E0 /* UIView+UIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+UIView.h"; sourceTree = "<group>"; };
+		5936EFBF2019C99A008A34E0 /* UIView+UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIView.m"; sourceTree = "<group>"; };
+		5936EFC12019CB70008A34E0 /* GFCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFCommon.h; sourceTree = "<group>"; };
+		5936EFC22019CBFF008A34E0 /* Evn_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Evn_config.h; sourceTree = "<group>"; };
+		5936EFC32019CC96008A34E0 /* GFBasicTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFBasicTableViewController.h; sourceTree = "<group>"; };
+		5936EFC42019CC96008A34E0 /* GFBasicTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFBasicTableViewController.m; sourceTree = "<group>"; };
+		5936EFC62019CD03008A34E0 /* GFNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFNavigationViewController.h; sourceTree = "<group>"; };
+		5936EFC72019CD03008A34E0 /* GFNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFNavigationViewController.m; sourceTree = "<group>"; };
+		5936EFC92019CDB7008A34E0 /* GFBasicTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFBasicTabViewController.h; sourceTree = "<group>"; };
+		5936EFCA2019CDB7008A34E0 /* GFBasicTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFBasicTabViewController.m; sourceTree = "<group>"; };
+		5936EFCC2019CDFA008A34E0 /* GFTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFTabBar.h; sourceTree = "<group>"; };
+		5936EFCD2019CDFA008A34E0 /* GFTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFTabBar.m; sourceTree = "<group>"; };
+		5936EFD02019D5B6008A34E0 /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		5936EFD12019D5B6008A34E0 /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		5936EFD32019D61A008A34E0 /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
+		5936EFD42019D61A008A34E0 /* StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtils.m; sourceTree = "<group>"; };
+		5936EFD62019D636008A34E0 /* NSString+Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Wrapper.h"; sourceTree = "<group>"; };
+		5936EFD72019D636008A34E0 /* NSString+Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Wrapper.m"; sourceTree = "<group>"; };
+		5936EFD92019D7F7008A34E0 /* UIViewController+ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ViewController.h"; sourceTree = "<group>"; };
+		5936EFDA2019D7F7008A34E0 /* UIViewController+ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ViewController.m"; sourceTree = "<group>"; };
+		5936EFDC2019D950008A34E0 /* DeviceInfoUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceInfoUtils.h; sourceTree = "<group>"; };
+		5936EFDD2019D950008A34E0 /* DeviceInfoUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoUtils.m; sourceTree = "<group>"; };
+		5936EFDF2019DC21008A34E0 /* UIColor+Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Wrapper.h"; sourceTree = "<group>"; };
+		5936EFE02019DC21008A34E0 /* UIColor+Wrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Wrapper.m"; sourceTree = "<group>"; };
+		5936EFE22019DC6E008A34E0 /* FileUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileUtils.h; sourceTree = "<group>"; };
+		5936EFE32019DC6E008A34E0 /* FileUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileUtils.m; sourceTree = "<group>"; };
+		5936EFE52019DCB4008A34E0 /* ValidationUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidationUtils.h; sourceTree = "<group>"; };
+		5936EFE62019DCB4008A34E0 /* ValidationUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidationUtils.m; sourceTree = "<group>"; };
+		5936EFE92019DD8B008A34E0 /* SDDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDDController.h; sourceTree = "<group>"; };
+		5936EFEA2019DD8B008A34E0 /* SDDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDDController.m; sourceTree = "<group>"; };
+		5936EFEB2019DD8B008A34E0 /* SegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentCell.h; sourceTree = "<group>"; };
+		5936EFEC2019DD8B008A34E0 /* SegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentCell.m; sourceTree = "<group>"; };
+		5936EFED2019DD8B008A34E0 /* SegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentControl.h; sourceTree = "<group>"; };
+		5936EFEE2019DD8B008A34E0 /* SegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentControl.m; sourceTree = "<group>"; };
+		5936EFEF2019DD8B008A34E0 /* UIColor+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColor.h"; sourceTree = "<group>"; };
+		5936EFF02019DD8B008A34E0 /* UIColor+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColor.m"; sourceTree = "<group>"; };
 		5DF3EE86A5E6050B8B90322B /* libPods-BasicProduct.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicProduct.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC5503C9D80E8E25F1B2118 /* Pods-BasicProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicProduct.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasicProduct/Pods-BasicProduct.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,9 +135,10 @@
 		5936EF9A2019BCC7008A34E0 /* BasicProduct */ = {
 			isa = PBXGroup;
 			children = (
+				5936EFCF2019D5B6008A34E0 /* Utils */,
+				5936EFBA2019C774008A34E0 /* Config */,
+				5936EFBB2019C774008A34E0 /* ThirdPart */,
 				5936EFB72019C4DF008A34E0 /* Supporting Files */,
-				5936EFB62019C3D8008A34E0 /* ThirdPart */,
-				5936EFB52019C352008A34E0 /* Config */,
 				5936EFB12019C2DD008A34E0 /* Basic */,
 			);
 			path = BasicProduct;
@@ -93,22 +149,20 @@
 			children = (
 				5936EFB22019C30E008A34E0 /* GFBaiscViewController.h */,
 				5936EFB32019C30E008A34E0 /* GFBaiscViewController.m */,
+				5936EFC32019CC96008A34E0 /* GFBasicTableViewController.h */,
+				5936EFC42019CC96008A34E0 /* GFBasicTableViewController.m */,
+				5936EFC62019CD03008A34E0 /* GFNavigationViewController.h */,
+				5936EFC72019CD03008A34E0 /* GFNavigationViewController.m */,
+				5936EFC92019CDB7008A34E0 /* GFBasicTabViewController.h */,
+				5936EFCA2019CDB7008A34E0 /* GFBasicTabViewController.m */,
+				5936EFCC2019CDFA008A34E0 /* GFTabBar.h */,
+				5936EFCD2019CDFA008A34E0 /* GFTabBar.m */,
+				5936EFBE2019C99A008A34E0 /* UIView+UIView.h */,
+				5936EFBF2019C99A008A34E0 /* UIView+UIView.m */,
+				5936EFD92019D7F7008A34E0 /* UIViewController+ViewController.h */,
+				5936EFDA2019D7F7008A34E0 /* UIViewController+ViewController.m */,
 			);
 			path = Basic;
-			sourceTree = "<group>";
-		};
-		5936EFB52019C352008A34E0 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		5936EFB62019C3D8008A34E0 /* ThirdPart */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ThirdPart;
 			sourceTree = "<group>";
 		};
 		5936EFB72019C4DF008A34E0 /* Supporting Files */ = {
@@ -125,6 +179,61 @@
 				5936EFA62019BCC7008A34E0 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5936EFBA2019C774008A34E0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				5936EFBC2019C781008A34E0 /* PrefixHeader.pch */,
+				5936EFBD2019C8BA008A34E0 /* UICommon.h */,
+				5936EFC12019CB70008A34E0 /* GFCommon.h */,
+				5936EFC22019CBFF008A34E0 /* Evn_config.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		5936EFBB2019C774008A34E0 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				5936EFE82019DD8B008A34E0 /* SDDSegmentCenter */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		5936EFCF2019D5B6008A34E0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5936EFD02019D5B6008A34E0 /* CustomAlertView.h */,
+				5936EFD12019D5B6008A34E0 /* CustomAlertView.m */,
+				5936EFD32019D61A008A34E0 /* StringUtils.h */,
+				5936EFD42019D61A008A34E0 /* StringUtils.m */,
+				5936EFD62019D636008A34E0 /* NSString+Wrapper.h */,
+				5936EFD72019D636008A34E0 /* NSString+Wrapper.m */,
+				5936EFDC2019D950008A34E0 /* DeviceInfoUtils.h */,
+				5936EFDD2019D950008A34E0 /* DeviceInfoUtils.m */,
+				5936EFDF2019DC21008A34E0 /* UIColor+Wrapper.h */,
+				5936EFE02019DC21008A34E0 /* UIColor+Wrapper.m */,
+				5936EFE22019DC6E008A34E0 /* FileUtils.h */,
+				5936EFE32019DC6E008A34E0 /* FileUtils.m */,
+				5936EFE52019DCB4008A34E0 /* ValidationUtils.h */,
+				5936EFE62019DCB4008A34E0 /* ValidationUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5936EFE82019DD8B008A34E0 /* SDDSegmentCenter */ = {
+			isa = PBXGroup;
+			children = (
+				5936EFE92019DD8B008A34E0 /* SDDController.h */,
+				5936EFEA2019DD8B008A34E0 /* SDDController.m */,
+				5936EFEB2019DD8B008A34E0 /* SegmentCell.h */,
+				5936EFEC2019DD8B008A34E0 /* SegmentCell.m */,
+				5936EFED2019DD8B008A34E0 /* SegmentControl.h */,
+				5936EFEE2019DD8B008A34E0 /* SegmentControl.m */,
+				5936EFEF2019DD8B008A34E0 /* UIColor+UIColor.h */,
+				5936EFF02019DD8B008A34E0 /* UIColor+UIColor.m */,
+			);
+			path = SDDSegmentCenter;
 			sourceTree = "<group>";
 		};
 		B3427B17697D47BF3944C8EA /* Frameworks */ = {
@@ -261,10 +370,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5936EFCB2019CDB7008A34E0 /* GFBasicTabViewController.m in Sources */,
+				5936EFD52019D61A008A34E0 /* StringUtils.m in Sources */,
+				5936EFC02019C99A008A34E0 /* UIView+UIView.m in Sources */,
+				5936EFE12019DC21008A34E0 /* UIColor+Wrapper.m in Sources */,
+				5936EFF42019DD8B008A34E0 /* UIColor+UIColor.m in Sources */,
+				5936EFC82019CD03008A34E0 /* GFNavigationViewController.m in Sources */,
+				5936EFCE2019CDFA008A34E0 /* GFTabBar.m in Sources */,
+				5936EFD82019D637008A34E0 /* NSString+Wrapper.m in Sources */,
+				5936EFE42019DC6E008A34E0 /* FileUtils.m in Sources */,
+				5936EFC52019CC96008A34E0 /* GFBasicTableViewController.m in Sources */,
 				5936EFB42019C30E008A34E0 /* GFBaiscViewController.m in Sources */,
 				5936EFA02019BCC7008A34E0 /* ViewController.m in Sources */,
+				5936EFDB2019D7F7008A34E0 /* UIViewController+ViewController.m in Sources */,
 				5936EFAB2019BCC7008A34E0 /* main.m in Sources */,
+				5936EFD22019D5B6008A34E0 /* CustomAlertView.m in Sources */,
+				5936EFF22019DD8B008A34E0 /* SegmentCell.m in Sources */,
 				5936EF9D2019BCC7008A34E0 /* AppDelegate.m in Sources */,
+				5936EFDE2019D950008A34E0 /* DeviceInfoUtils.m in Sources */,
+				5936EFE72019DCB4008A34E0 /* ValidationUtils.m in Sources */,
+				5936EFF12019DD8B008A34E0 /* SDDController.m in Sources */,
+				5936EFF32019DD8B008A34E0 /* SegmentControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +527,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CYTJAT486P;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/BasicProduct/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = "BasicProduct/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.0.RuntimeTest";
@@ -416,6 +543,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CYTJAT486P;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/BasicProduct/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = "BasicProduct/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.0.RuntimeTest";
