@@ -36,7 +36,7 @@
 #pragma mark - cyc life
 - (void)dealloc {
     
-    NSLog(@"dealloced!!! VC name is = %@ !!!",[self class]);
+    NSLog(@"dealloced- VC name is = %@",[self class]);
 }
 
 @end

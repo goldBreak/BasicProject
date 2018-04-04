@@ -11,52 +11,17 @@
 @interface UIView (UIView)
 
 
-/**
- 返回view的宽度
-
- @return 宽度
- */
-- (CGFloat) width;
-
-
-/**
- 返回view的高度
-
- @return 高度
- */
-- (CGFloat) height;
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
+@property (nonatomic) CGFloat originX;
+@property (nonatomic) CGFloat originY;
+@property (nonatomic) CGPoint origin;
+@property (nonatomic) CGFloat centerX;
+@property (nonatomic) CGFloat centerY;
+@property (nonatomic) CGSize  size;
 
 
-/**
- 返回view的最小的x
-
- @return origin.x
- */
-- (CGFloat) minX;
-
-
-/**
- 返回view的最小的y
-
- @return origin.y
- */
-- (CGFloat) minY;
-
-
-/**
- 返回view的最大的x
-
- @return origin.x+size.width
- */
-- (CGFloat) maxX;
-
-
-/**
- 返回view的最大的y
-
- @return origin.y + size.height
- */
-- (CGFloat) maxY;
-
+- (CGFloat)maxX;
+- (CGFloat)maxY;
 
 @end
